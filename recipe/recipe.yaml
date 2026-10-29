@@ -7,7 +7,7 @@ source:
   url: https://github.com/badboy/mdbook-mermaid/archive/refs/tags/v${{ version }}.tar.gz
   sha256: 5b0242092325a383c46ad9fcd15f2f6972ccc549b640fcb74bc02cf3d2cf45d4
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
